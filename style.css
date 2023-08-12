@@ -1,0 +1,34 @@
+h2 {
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+}
+      
+p {
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    width: 15%;
+    height: 15%
+}
+
+body {
+    background-image: url('badapple.png');
+    background-size: cover;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
