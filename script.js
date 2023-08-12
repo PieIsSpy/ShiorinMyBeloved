@@ -5,6 +5,6 @@ const sounds = ['giggle01', 'giggle02', 'giggle03', 'giggle04', 'giggle05', 'gig
 
 function randomGiggles() {
   const audioContent = Math.floor(Math.random() * sounds.length);
-  var audio = new Audio('audio/' + audioContent);
+  const audio = new Audio(sounds[audioContent]);
   audio.play();
 }
