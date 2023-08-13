@@ -5,7 +5,7 @@ var button = document.getElementById("button"), count = 0, currentCounter = docu
 
 function clickCounter()
 {
-  currentCounter = currentCounter + 1;
+  currentCounter++;
   currentCounter.innerHTML = currentCounter;
 }
 
