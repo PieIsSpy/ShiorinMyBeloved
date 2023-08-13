@@ -34,3 +34,9 @@ div {
     justify-content: center;
     align-items: center;
 }
+
+span {
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    color: white;
+}
