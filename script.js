@@ -1,7 +1,7 @@
 var img = document.createElement('button');
 img.setAttribute('src','cute shiorin.jpg');
 
-var button = document.getElementById("button"), count = 0, currentCounter = document.getElementById('currentCounter');
+var button = document.getElementById("button"), count = 0, currentCounter = document.getElementById("currentCounter");
 
 function clickCounter()
 {
