@@ -3,6 +3,7 @@ img.setAttribute('src','cute shiorin.jpg');
 
 var button = document.getElementById("button"),
   currentcount = 0;
+
 button.onclick = function() {
   currentcount += 1;
   button.innerHTML = "Local Shiori~n giggles counter: " + currentcount;
