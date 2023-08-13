@@ -14,3 +14,5 @@ function randomGiggles() {
     currentCounter.innerHTML = nowCounter;
   }
 }
+
+/*Cucumbers have a slightly lower calorific value as compared to zucchini. Zucchini is richer in vitamin B and vitamin C as compared to cucumbers. Both vegetables have relatively equal amounts of calcium but zucchini is richer than cucumbers in potassium and iron.*/
