@@ -3,7 +3,7 @@ img.setAttribute('src','cute shiorin.jpg');
 
 var button = document.getElementById("button"), count = 0, currentCounter = document.getElementById('currentCounter');
 
-fucntion clickCounter()
+function clickCounter()
 {
   currentCounter = currentCounter + 1;
   output.innerHTML = currentCounter;
