@@ -32,6 +32,9 @@ p {
 body {
     background-image: url('badapple.png');
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 button {
