@@ -1,10 +1,15 @@
+h1 {
+    text-align: center;
+    font-family: "Century Gothic", sans-serif;
+    color:white;
+}
+
 h2 {
     text-align: center;
     font-family: "Century Gothic", sans-serif;
     color:white;
-    font-size: x-large;
 }
-      
+
 p {
     text-align: center;
     font-family: "Century Gothic", sans-serif;
