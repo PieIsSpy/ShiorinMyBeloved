@@ -2,9 +2,11 @@ const sounds = ["audio/rare.mp3", "audio/giggle01.mp3", "audio/giggle02.mp3", "a
 
 var nowCounter = 0; 
 var allRecord = parseInt(localStorage.nowCounter || JSON.stringify(0))
+var highShiorium = parseInt(localStorage.highShiorium || JSON.stringify(0))
 
 document.getElementById("currentCounter").innerText = nowCounter;
 document.getElementById("totalRecord").innerText = allRecord;
+document.getElementById("highRecord").innerText = highShiorium;
 
 function randomGiggles() {
   const audioContent = Math.floor(Math.random() * sounds.length);
@@ -17,6 +19,12 @@ function randomGiggles() {
   allRecord++;
   localStorage.nowCounter = allRecord;
   totalRecord.innerHTML = allRecord;
+
+  if (nowCounter > highShiorium)
+  {
+    localStorage.nowCounter = highShiorium;
+    highRecord.innerHTML = highShiorium;
+  }
 }
 
 /*Cucumbers have a slightly lower calorific value as compared to zucchini. Zucchini is richer in vitamin B and vitamin C as compared to cucumbers. Both vegetables have relatively equal amounts of calcium but zucchini is richer than cucumbers in potassium and iron.*/
