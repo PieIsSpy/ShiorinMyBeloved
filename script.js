@@ -22,7 +22,8 @@ function randomGiggles() {
 
   if (nowCounter > highShiorium)
   {
-    localStorage.nowCounter = highShiorium;
+    highShiorium = nowCounter;
+    localStorage.highShiorium = localStorage.nowCounter;
     highRecord.innerHTML = highShiorium;
   }
 }
