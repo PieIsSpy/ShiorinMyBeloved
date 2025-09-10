@@ -1,4 +1,4 @@
-# ShiorinMyBeloved.github.io
+# Shiorin
 Shiori~n!
 
-Link: https://pieisspy.github.io/ShiorinMyBeloved.github.io/
+Link: https://pieisspy.github.io/Shiorin/
